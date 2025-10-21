@@ -699,7 +699,7 @@ $isFragrance = $productData['category'] === 'fragrances';
             <nav>
                 <ul>
                     <li><a href="shop.php">Shop</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="about.php">About</a></li>
                     <?php if (!$isLoggedIn): ?>
                         <li><a href="signup.php" class="signup-btn">Sign Up</a></li>
                     <?php endif; ?>

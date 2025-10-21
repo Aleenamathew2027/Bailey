@@ -777,7 +777,7 @@ $products = $product->getProducts($category, $minPrice, $maxPrice);
             <nav>
                 <ul>
                     <li><a href="shop.php">Shop</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="about.php">About</a></li>
                     <?php if (!$isLoggedIn): ?>
                         <li><a href="signup.php" class="signup-btn">Sign Up</a></li>
                     <?php endif; ?>
@@ -921,7 +921,7 @@ $products = $product->getProducts($category, $minPrice, $maxPrice);
                     <h3>Navigate</h3>
                     <ul class="footer-links">
                         <li><a href="shop.php">Shop</a></li>
-                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="aboutphp">Our Story</a></li>
                         <li><a href="#collections">Collections</a></li>
                         <li><a href="#stores">Store Locator</a></li>
                     </ul>
