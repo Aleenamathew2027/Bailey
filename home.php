@@ -878,7 +878,7 @@ $userInitial = $isLoggedIn ? strtoupper(substr($userName, 0, 1)) : '';
         <a href="shop.php" class="cta-button">Discover Now</a>
     </section>
 
-    <!-- Best Sellers -->
+    <!-- Best Sellers
     <section class="collections">
         <h2 class="section-title">Best Sellers</h2>
         <div class="product-grid">
@@ -910,7 +910,7 @@ $userInitial = $isLoggedIn ? strtoupper(substr($userName, 0, 1)) : '';
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer>
